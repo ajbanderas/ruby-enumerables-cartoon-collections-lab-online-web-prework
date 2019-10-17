@@ -21,6 +21,8 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   var counter = 0
-  while counter do
+  while cheese_types[counter] do
     
+    counter += 1
+  end
 end
