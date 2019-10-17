@@ -30,5 +30,8 @@ def find_the_cheese(array)
     counter += 1
   end
   unless is_cheese
-  
+    return is_cheese
+  else
+    return cheese_types[is_cheese]
+  end
 end
