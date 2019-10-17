@@ -24,8 +24,9 @@ def find_the_cheese(array)
   var is_cheese = nil
   while array[counter] do
     is_cheese = cheese_types.index(array[counter])
-    if is_cheese
-      
+    unless is_cheese
+    
+    else
     end
     counter += 1
   end
