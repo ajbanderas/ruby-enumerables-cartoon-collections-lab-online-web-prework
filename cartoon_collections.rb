@@ -30,5 +30,5 @@ def find_the_cheese(array)
     counter += 1
   end
   unless is_cheese
-    
+  
 end
